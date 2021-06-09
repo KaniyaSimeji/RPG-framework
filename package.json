@@ -1,0 +1,19 @@
+{
+  "name": "rpg-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaniyaSimeji/RPG-framework.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaniyaSimeji/RPG-framework/issues"
+  },
+  "homepage": "https://github.com/KaniyaSimeji/RPG-framework#readme"
+}
