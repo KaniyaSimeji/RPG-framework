@@ -1,3 +1,0 @@
-function level_start(){
-
-}
