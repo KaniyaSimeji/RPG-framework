@@ -1,4 +1,4 @@
-let InEnemyVariableExp:number = 0;
+const InEnemyVariableExp = 0;
 
 export class enemy_exp {
 
@@ -13,7 +13,6 @@ export class enemy_exp {
     return InEnemyVariableExp+EnemyDrop;
   }
 
-
-
+  
 
 }
