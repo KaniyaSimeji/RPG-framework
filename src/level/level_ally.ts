@@ -1,4 +1,4 @@
-import {AllyObject} from "../status/status";
+// import {AllyObject} from "../status/status";
 
 export class ally_exp {
   private InAllyVariableExp:number
@@ -23,7 +23,7 @@ export class ally_exp {
   }}
 
   LevelUp_StatusUp(AttackPower?:number,hp?:number,MagicPower?:number,Guard?:number){ //レベルが上がるごとになんの数値が基本のステータスに与えられるか
-    return
+    return 
   }
 
 
