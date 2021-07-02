@@ -1,5 +1,4 @@
 export declare class enemy_exp {
-    constructor();
-    Reset_exp(): number;
-    drop_exp(EnemyDrop: number): number;
+    ResetExp_enemy(): void;
+    DropExp_enemy(EnemyDrop: number): number;
 }

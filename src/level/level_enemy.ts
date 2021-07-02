@@ -2,14 +2,12 @@ const InEnemyVariableExp = 0;
 
 export class enemy_exp {
 
-  constructor() {
+
+  ResetExp_enemy():void {
+    InEnemyVariableExp;
   }
 
-  ResetExp_enemy() {
-    return InEnemyVariableExp;
-  }
-
-  DropExp_enemy(EnemyDrop:number){
+  DropExp_enemy(EnemyDrop:number):number{
     return InEnemyVariableExp+EnemyDrop;
   }
 

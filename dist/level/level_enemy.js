@@ -1,15 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.enemy_exp = void 0;
-let in_variable_exp = 0;
+const InEnemyVariableExp = 0;
 class enemy_exp {
-    constructor() {
+    ResetExp_enemy() {
+        InEnemyVariableExp;
     }
-    Reset_exp() {
-        return in_variable_exp;
-    }
-    drop_exp(EnemyDrop) {
-        return in_variable_exp + EnemyDrop;
+    DropExp_enemy(EnemyDrop) {
+        return InEnemyVariableExp + EnemyDrop;
     }
 }
 exports.enemy_exp = enemy_exp;
