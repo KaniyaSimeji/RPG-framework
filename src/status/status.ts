@@ -1,43 +1,19 @@
-/**
- *
- *
- * @export
- * @class AllyObject
- */
-export class AllyObject {
-  AttackPower:number
-  hp:number
-  MagicPower:number
-  Guard:number
-    /**
-     * Creates an instance of AllyObject.
-     * @param {number} AttackPower
-     * @param {number} hp
-     * @param {number} MagicPower
-     * @param {number} Guard
-     * @memberof AllyObject
-     */
-    constructor(AttackPower:number,hp:number,MagicPower:number,Guard:number){
-      this.AttackPower = AttackPower
-      this.hp = hp
-      this.MagicPower = MagicPower
-      this.Guard = Guard
+import {v4 as uuidv4} from 'uuid';
+
+//Character Status
+export class status {
+    public chara_name: string | undefined;
+    public chara_power: number | undefined;
+    public chara_guard: number | undefined;
+    public chara_speed: number | undefined;
+    public chara_hp: number | undefined;
+    public chara_mp: number | undefined;
+    protected chara_id: string | undefined;
+
+    give_id(chara_name:string):object {
+        this.chara_id = uuidv4();
+        return {name:this.chara_name, id: this.chara_id}
     }
 
-  /**
-   *
-   *
-   * @param {number} aaa
-   * @param {number} bbb
-   * @param {number} ccc
-   * @param {number} ddd
-   * @memberof AllyObject
-   */
-  LevelUp_StatusUp(aaa:number, bbb:number, ccc:number, ddd:number):void{
-    this.AttackPower += aaa
-    this.hp += bbb
-    this.MagicPower += ccc
-    this.Guard += ddd
-  }
-
+    
 }
